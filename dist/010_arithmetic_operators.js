@@ -3,35 +3,26 @@
 var numOne = 1;
 var numTwo = 2;
 // Addition
-console.log("Addition:");
-console.log(numOne + numTwo);
-// Subtraction
-console.log("Subtraction:");
-console.log(numOne - numTwo);
+console.log(`Addition: ${numOne} + ${numTwo} = ` + (numOne + numTwo));
+// Subtration
+console.log(`Subtraction: ${numTwo} - ${numOne} = ` + (numTwo - numOne));
 // Multiplication
-console.log("Multiplication:");
-numOne = 10;
-numTwo = 15;
-console.log(numOne * numTwo);
+console.log(`Multiplication: ${numTwo} * ${numOne} = ` + (numTwo * numOne));
 // Division
-console.log("Division:");
-console.log(numOne / numTwo);
+console.log(`Division: ${numTwo} / ${numOne} = ` + (numTwo / numOne));
 // Modulus
-console.log("Modulus:");
-var numThree = 2;
-var numFour = 21;
-console.log(numFour % numThree);
+numOne = 9;
+numTwo = 15;
+console.log(`Modulus: ${numTwo} % ${numOne} = ` + (numTwo % numOne));
 // Incrementor
-console.log("Incrementor:");
-var x = 0;
-while (x < 10) {
-    console.log(x);
-    x++;
+console.log('Incrementor:');
+for (var i = 0; i < numTwo; i++) {
+    numOne++;
+    console.log(`numOne++ (x${i + 1}) = ` + numOne);
 }
 // Decrementor
-console.log("Decrementor:");
-var x = 10;
-while (x > 0) {
-    console.log(x);
-    x--;
+console.log('Decrementor:');
+for (var i = 0; i < numTwo; i++) {
+    numOne--;
+    console.log(`numOne-- (x${i + 1}) = ` + numOne);
 }
