@@ -6,7 +6,7 @@
 function favoriteFoods(person, ...foods) {
     console.log(person + "'s favorite foods:");
     for (let food of foods) {
-        console.log(' - ' + food);
+        console.log(" - " + food);
     }
 }
-favoriteFoods('Brian', 'potate', 'sangwhich', 'gabagool');
+favoriteFoods("Brian", "potate", "sangwhich", "gabagool");

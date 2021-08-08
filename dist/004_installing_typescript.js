@@ -1,6 +1,6 @@
 "use strict";
 class HelloAngularComponent {
     constructor() {
-        this.greeting = 'Hello TypeScript';
+        this.greeting = "Hello TypeScript";
     }
 }

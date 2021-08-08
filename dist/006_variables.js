@@ -1,7 +1,8 @@
 "use strict";
-// var fullName : string = "Jordan Hudgens";
-// let paidAccount : boolean = true;
-// const versionNumber : number = 1.3;
+Object.defineProperty(exports, "__esModule", { value: true });
+// var fullName: string = "Jordan Hudgens";
+// let paidAccount: boolean = true;
+// const versionNumber: number = 1.3;
 // fullName = "Tiffany Hudgens";
 // paidAccount = false;
 // console.log(fullName);

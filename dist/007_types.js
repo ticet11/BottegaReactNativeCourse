@@ -10,7 +10,7 @@ var fullName = "Jordan Hudgens";
 var ages = [33, 28, 11];
 // Tuple
 let player;
-player = [3, 'Corerra', .333, 33];
+player = [3, "Corerra", 0.333, 33];
 // Enum
 var ApprovalStatus;
 (function (ApprovalStatus) {
@@ -18,10 +18,9 @@ var ApprovalStatus;
     ApprovalStatus[ApprovalStatus["Pending"] = 1] = "Pending";
     ApprovalStatus[ApprovalStatus["Rejected"] = 2] = "Rejected";
 })(ApprovalStatus || (ApprovalStatus = {}));
-;
 let job = ApprovalStatus.Pending;
 // Any
-var apiData = [123, 'Jordan', false];
+var apiData = [123, "Jordan", false];
 // Void
 function printOut(msg) {
     console.log(msg);

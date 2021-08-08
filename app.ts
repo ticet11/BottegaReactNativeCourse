@@ -2,16 +2,16 @@ export {};
 
 console.log("Howdy");
 
-function welcomePerson(person:Person) {
-    console.log(`Hey, ${person.firstName}!`);
+function welcomePerson(person: Person) {
+	console.log(`Hey, ${person.firstName}!`);
 }
 
 const james = {
-    firstName: "Django",
-}
+	firstName: "Django",
+};
 
 welcomePerson(james);
 
 interface Person {
-    firstName: string;
+	firstName: string;
 }

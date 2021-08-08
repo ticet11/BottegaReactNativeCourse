@@ -1,6 +1,8 @@
-// var fullName : string = "Jordan Hudgens";
-// let paidAccount : boolean = true;
-// const versionNumber : number = 1.3;
+export {};
+
+// var fullName: string = "Jordan Hudgens";
+// let paidAccount: boolean = true;
+// const versionNumber: number = 1.3;
 
 // fullName = "Tiffany Hudgens";
 // paidAccount = false;
@@ -10,10 +12,10 @@
 // console.log(versionNumber);
 
 function printName(f, l) {
-	var greeting : string = "Hi there, ";
+	var greeting: string = "Hi there, ";
 	console.log(greeting + f + " " + l);
 
-	var greeting : string = "Hey there, ";
+	var greeting: string = "Hey there, ";
 	console.log(greeting + f + " " + l);
 }
 

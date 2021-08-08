@@ -7,21 +7,21 @@ console.log(`Addition: ${numOne} + ${numTwo} = ` + (numOne + numTwo));
 // Subtration
 console.log(`Subtraction: ${numTwo} - ${numOne} = ` + (numTwo - numOne));
 // Multiplication
-console.log(`Multiplication: ${numTwo} * ${numOne} = ` + (numTwo * numOne));
+console.log(`Multiplication: ${numTwo} * ${numOne} = ` + numTwo * numOne);
 // Division
-console.log(`Division: ${numTwo} / ${numOne} = ` + (numTwo / numOne));
+console.log(`Division: ${numTwo} / ${numOne} = ` + numTwo / numOne);
 // Modulus
 numOne = 9;
 numTwo = 15;
 console.log(`Modulus: ${numTwo} % ${numOne} = ` + (numTwo % numOne));
 // Incrementor
-console.log('Incrementor:');
+console.log("Incrementor:");
 for (var i = 0; i < numTwo; i++) {
     numOne++;
     console.log(`numOne++ (x${i + 1}) = ` + numOne);
 }
 // Decrementor
-console.log('Decrementor:');
+console.log("Decrementor:");
 for (var i = 0; i < numTwo; i++) {
     numOne--;
     console.log(`numOne-- (x${i + 1}) = ` + numOne);

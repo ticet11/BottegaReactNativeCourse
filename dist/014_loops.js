@@ -9,8 +9,8 @@ while (x < 10) {
 let players = [12, 56, 23, 78, 55];
 // for in
 for (let player in players) {
-    console.log('for in: ' + player);
+    console.log("for in: " + player);
 }
 for (let player of players) {
-    console.log('for of: ' + player);
+    console.log("for of: " + player);
 }

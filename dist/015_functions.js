@@ -6,19 +6,19 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(fullName('Brian', 'Kobuz'));
 function gradeGenerator(grade) {
     if (grade >= 90) {
-        return 'A';
+        return "A";
     }
     else if (grade >= 80) {
-        return 'B';
+        return "B";
     }
     else if (grade >= 70) {
-        return 'C';
+        return "C";
     }
     else if (grade >= 60) {
-        return 'D';
+        return "D";
     }
     else {
-        return 'F';
+        return "F";
     }
 }
 console.log(gradeGenerator(90));

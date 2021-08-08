@@ -4,12 +4,11 @@
 
 // console.log(printAddress('123 potato'));
 
-function favoriteFoods (person: string, ...foods: string[]) {
-    console.log(person + "'s favorite foods:");
-    for (let food of foods) {
-        console.log(' - ' + food);
-    }
+function favoriteFoods(person: string, ...foods: string[]) {
+	console.log(person + "'s favorite foods:");
+	for (let food of foods) {
+		console.log(" - " + food);
+	}
 }
 
-favoriteFoods('Brian', 'potate', 'sangwhich', 'gabagool');
-
+favoriteFoods("Brian", "potate", "sangwhich", "gabagool");
