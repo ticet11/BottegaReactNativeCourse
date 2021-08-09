@@ -29,15 +29,20 @@
 /* --------------------------------------- */
 
 function lineup() {
-	var nowBatting: number = 1;
+	let nowBatting: number = 1;
+
+	function nextBatter() {
+		nowBatting++;
+	}
 
 	return {
-		nextBatter() {
-			nowBatting++;
-		},
-		currentBatter() {
+		// nextBatter() {
+		// 	nowBatting++;
+		// },
+		currentBatter: function () {
 			return nowBatting;
 		},
+		nextBatter,
 	};
 }
 
@@ -45,13 +50,9 @@ let batters = lineup();
 let pitchers = lineup();
 
 while (batters.currentBatter() <= 20) {
-    if(batters.currentBatter() === 11 || batters.currentBatter() === 1) {
-        console.log('Pitcher: ' + pitchers.currentBatter());
-    }
-    console.log('Batter: ' + batters.currentBatter());
+	if (batters.currentBatter() === 11 || batters.currentBatter() === 1) {
+		console.log("Pitcher: " + pitchers.currentBatter());
+	}
+	console.log("Batter: " + batters.currentBatter());
 	batters.nextBatter();
-
 }
-
-
-

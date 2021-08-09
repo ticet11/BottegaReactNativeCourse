@@ -11,9 +11,9 @@ function fullName(first: string, last: string): string {
 }
 
 // Function Expression
-let expFullName1: (first: string, last: string) => string;
+let expFullName1;
 
-expFullName1 = function (first: string, last: string) {
+expFullName1 = function (first: string, last: string): string {
 	return first + " " + last;
 };
 
