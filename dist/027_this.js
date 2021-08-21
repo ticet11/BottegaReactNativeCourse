@@ -25,9 +25,9 @@ class Invoice {
 var invoice0 = new Invoice(400);
 (function () {
     return __awaiter(this, void 0, void 0, function* () {
-        const returnedValue = invoice0.printTotal();
-        console.log(returnedValue);
-        // const returnedValue = await invoice0.printLater(5000);
+        // const returnedValue = invoice0.printTotal();
         // console.log(returnedValue);
+        const returnedValue = yield invoice0.printLater(5000);
+        console.log(returnedValue);
     });
 })();
