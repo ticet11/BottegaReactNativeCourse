@@ -1,11 +1,11 @@
-@detailedLog('billing')
+@detailedLog("billing")
 class AccountsPayable {
 	constructor() {}
 }
 
-@detailedLog('engineering')
+@detailedLog("engineering")
 class Engineering {
-    constructor() {}
+	constructor() {}
 }
 
 function detailedLog(dashboard: string) {
@@ -13,9 +13,9 @@ function detailedLog(dashboard: string) {
 		console.log(`Working in the ${dashboard} department.`);
 		return function (target: Object) {};
 	} else {
-        console.log("ERROR! Oh no!")
+		console.log("ERROR! Oh no!");
 		return function (target: Object) {};
-    }
+	}
 }
 
 // var ap0 = new AccountsPayable;
